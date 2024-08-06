@@ -6,9 +6,11 @@
 #include <iostream>
 #include <cuda_runtime.h>
 #include <device_launch_parameters.h>
-#include "src/project/vecAdd.h"
 
+#include "src/project/vecAdd.h"
 #include "src/project/simpleCNN.cuh"
+#include "src/project/imageGray.cuh"
+#include "src/project/matrixMulti.cuh"
 
 
 int main()
@@ -18,10 +20,7 @@ int main()
     auto start = std::chrono::high_resolution_clock::now();
 
     // ---------------  run ------------------
-
-
-
-
+ 
 
 
     // ---------------  run ------------------

@@ -10,17 +10,13 @@
 // 打印输出结果矩阵。
 
 
-#include <iostream>
-#include <vector>
 #include <cmath>
 #include <cuda_runtime.h>
 #include <device_launch_parameters.h>
 #include "simpleCNN.cuh"
 
 
-#define M 5  // 输入矩阵的行数
-#define N 5  // 输入矩阵的列数
-#define K 3  // 卷积核矩阵的大小
+
 
 __global__ void convolution2D(float* input, float* kernel, float* output, int m, int n, int k) {
     int row = blockIdx.y * blockDim.y + threadIdx.y;
@@ -52,20 +48,12 @@ void printMatrix(const std::vector<float>& matrix, int rows, int cols) {
     }
 }
 
-int run() {
-    std::vector<float> input = {
-        1, 2, 3, 4, 5,
-        6, 7, 8, 9, 10,
-        11, 12, 13, 14, 15,
-        16, 17, 18, 19, 20,
-        21, 22, 23, 24, 25
-    };
 
-    std::vector<float> kernel = {
-        1, 0, -1,
-        1, 0, -1,
-        1, 0, -1
-    };
+std::vector<float>  run(std::vector<float> input, std::vector<float> kernel, size_t rows, size_t cols, size_t kernelSize) {
+    
+    size_t M = rows;  // 输入矩阵的行数
+    size_t N = cols;  // 输入矩阵的列数
+    size_t K = kernelSize;  // 卷积核矩阵的大小
 
     std::vector<float> output(M * N, 0);
 
@@ -99,5 +87,5 @@ int run() {
     cudaFree(d_kernel);
     cudaFree(d_output);
 
-    return 0;
+    return output;
 }

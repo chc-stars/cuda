@@ -145,6 +145,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <CudaCompile Include="cuda.cpp" />
+    <CudaCompile Include="src\project\histogramEqualization.cu" />
+    <CudaCompile Include="src\project\imageGray.cu" />
+    <CudaCompile Include="src\project\matrixMulti.cu" />
     <CudaCompile Include="src\project\simpleCNN.cu" />
     <CudaCompile Include="src\project\vecAdd.cpp" />
   </ItemGroup>
@@ -157,7 +160,10 @@
     <None Include="src\common\error.cuh" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\project\histogramEqualization.cuh" />
+    <ClInclude Include="src\project\imageGray.cuh" />
     <ClInclude Include="src\project\kernel.cuh" />
+    <ClInclude Include="src\project\matrixMulti.cuh" />
     <ClInclude Include="src\project\simpleCNN.cuh" />
     <ClInclude Include="src\project\vecAdd.h" />
   </ItemGroup>

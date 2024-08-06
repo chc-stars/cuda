@@ -13,7 +13,6 @@
 #include "src/project/matrixMulti.cuh"
 #include "src/project/parallelMergeSort.cuh"
 #include "src/project//parallelPrefixSum.cuh"
-#include "src/project/solveLinearEquations.cuh"
 #include "src/project/vecNormalization.cuh"
 #include "src/project/monteCarloCalcPI.cuh"
 
@@ -25,7 +24,10 @@ int main()
     auto start = std::chrono::high_resolution_clock::now();
 
     // ---------------  run ------------------
- 
+
+
+
+
     // ---------------  run ------------------
     // 获取当前时间点
     auto end = std::chrono::high_resolution_clock::now();

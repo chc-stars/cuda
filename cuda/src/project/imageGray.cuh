@@ -1,3 +1,3 @@
 
 
-int run();
+int runImgGray();

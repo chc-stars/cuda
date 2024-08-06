@@ -151,7 +151,6 @@
     <CudaCompile Include="src\project\parallelMergeSort.cu" />
     <CudaCompile Include="src\project\parallelprefixSum.cu" />
     <CudaCompile Include="src\project\simpleCNN.cu" />
-    <CudaCompile Include="src\project\solveLinearEquations.cu" />
     <CudaCompile Include="src\project\vecAdd.cpp" />
     <CudaCompile Include="src\project\vecNormalization.cu" />
   </ItemGroup>
@@ -171,7 +170,6 @@
     <ClInclude Include="src\project\parallelMergeSort.cuh" />
     <ClInclude Include="src\project\parallelprefixSum.cuh" />
     <ClInclude Include="src\project\simpleCNN.cuh" />
-    <ClInclude Include="src\project\solveLinearEquations.cuh" />
     <ClInclude Include="src\project\vecAdd.h" />
     <ClInclude Include="src\project\vecNormalization.cuh" />
   </ItemGroup>

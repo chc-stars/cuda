@@ -15,7 +15,7 @@
 #include <curand_kernel.h>
 #include <device_launch_parameters.h>
 
-#define N 1000
+#define N 100000
 #define BLOCK_SIZE 256
 
 __global__ void monteCarloPiKernel(int* count, unsigned int seed) {

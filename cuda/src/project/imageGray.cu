@@ -17,8 +17,8 @@
 // Time to run kernel: 7.72288 ms
 // Gray Image (GPU):
 
-#define M 26000 // Í¼Ïñ¸ß¶È
-#define N 26000 // Í¼Ïñ¿í¶È
+#define M 2600 // Í¼Ïñ¸ß¶È
+#define N 2600 // Í¼Ïñ¿í¶È
 
 __global__ void rgb2gray(unsigned char* rgb, unsigned char* gray, int width, int height) {
     int x = blockIdx.x * blockDim.x + threadIdx.x;
@@ -63,7 +63,7 @@ void rgb2grayCPU(unsigned char* rgb, unsigned char* gray, int width, int height)
     }
 }
 
-int run() {
+int runImgGray() {
     int width = N;
     int height = M;
     size_t rgb_size = width * height * 3 * sizeof(unsigned char);

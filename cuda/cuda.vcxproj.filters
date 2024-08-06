@@ -32,7 +32,6 @@
     <ClInclude Include="src\project\matrixMulti.cuh" />
     <ClInclude Include="src\project\parallelMergeSort.cuh" />
     <ClInclude Include="src\project\parallelprefixSum.cuh" />
-    <ClInclude Include="src\project\solveLinearEquations.cuh" />
     <ClInclude Include="src\project\vecNormalization.cuh" />
     <ClInclude Include="src\project\monteCarloCalcPI.cuh" />
   </ItemGroup>
@@ -49,7 +48,6 @@
     <CudaCompile Include="src\project\matrixMulti.cu" />
     <CudaCompile Include="src\project\parallelMergeSort.cu" />
     <CudaCompile Include="src\project\parallelprefixSum.cu" />
-    <CudaCompile Include="src\project\solveLinearEquations.cu" />
     <CudaCompile Include="src\project\vecNormalization.cu" />
     <CudaCompile Include="src\project\monteCarloCalcPI.cu" />
   </ItemGroup>

@@ -15,6 +15,7 @@
 #include "src/project//parallelPrefixSum.cuh"
 #include "src/project/solveLinearEquations.cuh"
 #include "src/project/vecNormalization.cuh"
+#include "src/project/monteCarloCalcPI.cuh"
 
 
 int main()
@@ -24,11 +25,7 @@ int main()
     auto start = std::chrono::high_resolution_clock::now();
 
     // ---------------  run ------------------
-    const int N = 3;
-    float a[N] = { 3, 2, 1 };
-    float b[N] = { 0 };
-
-    runVecNormalization(a, b,N);
+ 
     // ---------------  run ------------------
     // 获取当前时间点
     auto end = std::chrono::high_resolution_clock::now();

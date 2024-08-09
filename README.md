@@ -1,8 +1,10 @@
 # cuda
 
 [![Build Status](https://img.shields.io/github/workflow/status/chc-stars/cuda/CI)](https://github.com/chc-stars/cuda/actions)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub release](https://img.shields.io/github/release/chc-stars/cuda.svg)](https://github.com/chc-stars/cuda/releases)
+#[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License](https://img.shields.io/github/license/chc-stars/CPPCodeChest?style=flat-square)](https://github.com/chc-stars/CPPCodeChest/blob/main/LICENSE)
+
+[![GitHub stars](https://img.shields.io/github/stars/chc-stars/cuda?style=flat-square)](https://github.com/chc-stars/cuda/stargazers)
 
 ## 项目简介
 

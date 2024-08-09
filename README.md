@@ -2,7 +2,7 @@
 
 [![Build Status](https://img.shields.io/github/workflow/status/chc-stars/cuda/CI)](https://github.com/chc-stars/cuda/actions)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub release](https://img.shields.io/github/chc-stars/release/cuda.svg)](https://github.com/chc-stars/cuda/release)
+[![GitHub release](https://img.shields.io/github/release/chc-stars/cuda.svg)](https://github.com/chc-stars/cuda/releases)
 
 ## 项目简介
 

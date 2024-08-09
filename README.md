@@ -1,8 +1,8 @@
-# CUDA-Project-Name
+# cuda
 
-[![Build Status](https://img.shields.io/github/workflow/status/yourusername/CUDA-Project-Name/CI)](https://github.com/yourusername/CUDA-Project-Name/actions)
+[![Build Status](https://img.shields.io/github/workflow/status/chc-stars/cuda/CI)](https://github.com/chc-stars/cuda/actions)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub release](https://img.shields.io/github/release/yourusername/CUDA-Project-Name.svg)](https://github.com/yourusername/CUDA-Project-Name/releases)
+[![GitHub release](https://img.shields.io/github/release/chc-stars/cuda.svg)](https://github.com/chc-stars/cuda/releases)
 
 ## 项目简介
 

@@ -34,6 +34,7 @@
     <ClInclude Include="src\project\parallelprefixSum.cuh" />
     <ClInclude Include="src\project\vecNormalization.cuh" />
     <ClInclude Include="src\project\monteCarloCalcPI.cuh" />
+    <ClInclude Include="src\project\physicalSimulation.cuh" />
   </ItemGroup>
   <ItemGroup>
     <CudaCompile Include="src\project\kernel.cu" />
@@ -50,5 +51,6 @@
     <CudaCompile Include="src\project\parallelprefixSum.cu" />
     <CudaCompile Include="src\project\vecNormalization.cu" />
     <CudaCompile Include="src\project\monteCarloCalcPI.cu" />
+    <CudaCompile Include="src\project\physicalSimulation.cu" />
   </ItemGroup>
 </Project>

@@ -29,13 +29,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -150,6 +150,7 @@
     <CudaCompile Include="src\project\monteCarloCalcPI.cu" />
     <CudaCompile Include="src\project\parallelMergeSort.cu" />
     <CudaCompile Include="src\project\parallelprefixSum.cu" />
+    <CudaCompile Include="src\project\physicalSimulation.cu" />
     <CudaCompile Include="src\project\simpleCNN.cu" />
     <CudaCompile Include="src\project\vecAdd.cpp" />
     <CudaCompile Include="src\project\vecNormalization.cu" />
@@ -169,6 +170,7 @@
     <ClInclude Include="src\project\matrixMulti.cuh" />
     <ClInclude Include="src\project\parallelMergeSort.cuh" />
     <ClInclude Include="src\project\parallelprefixSum.cuh" />
+    <ClInclude Include="src\project\physicalSimulation.cuh" />
     <ClInclude Include="src\project\simpleCNN.cuh" />
     <ClInclude Include="src\project\vecAdd.h" />
     <ClInclude Include="src\project\vecNormalization.cuh" />

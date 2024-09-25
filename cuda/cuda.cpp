@@ -15,7 +15,7 @@
 #include "src/project//parallelPrefixSum.cuh"
 #include "src/project/vecNormalization.cuh"
 #include "src/project/monteCarloCalcPI.cuh"
-
+#include "src/project/physicalSimulation.cuh"
 
 int main()
 {
@@ -24,9 +24,6 @@ int main()
     auto start = std::chrono::high_resolution_clock::now();
 
     // ---------------  run ------------------
-
-
-
 
     // ---------------  run ------------------
     // 获取当前时间点

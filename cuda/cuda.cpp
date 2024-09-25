@@ -15,7 +15,7 @@
 #include "src/project//parallelPrefixSum.cuh"
 #include "src/project/vecNormalization.cuh"
 #include "src/project/monteCarloCalcPI.cuh"
-#include "src/project/physicalSimulation.cuh"
+
 
 int main()
 {
